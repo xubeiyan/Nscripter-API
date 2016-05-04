@@ -1,0 +1,272 @@
+body
+{
+	background-color: #ffffff;
+	font-size: 90%;
+}
+a
+{
+	text-decoration: none;
+}
+a:link
+{
+	color: #6666FF;
+}
+
+a:visited
+{
+	color: #7560CC;
+}
+a:hover
+{
+	color: #5809FF;
+	text-decoration: underline;
+}
+#SIDEBAR
+{
+	width: 25%;
+	/*
+	position: absolute;
+	left: 75%;
+	*/
+	float: right;
+}
+/* for list */
+#LIST
+{
+	width: 75%;
+	float: left;
+	margin-bottom: 20px;
+}
+.S
+{
+	background-color: #CECFFF;
+}
+.SD
+{
+	background-color: #FFCCCC;
+}
+.F
+{
+	background-color: #FFFFCC;
+}
+.E
+{
+	background-color: #CCFFFF;
+}
+.FE
+{
+	background-color: #CCFFCC;
+}
+.Word
+{
+	border-top: solid 1px;
+	font-size: 95%;
+}
+.WordLiteral
+{
+	width: 20%;
+	font-weight: bold;
+}
+.Function
+{
+	padding-left: 1em;
+}
+/* for main */
+#MAIN
+{
+	clear: both;
+	width: 100%;
+}
+.WordPhonetic
+{
+	font-size: 50%;
+	margin-top: 1px;
+	margin-bottom: 0px;
+}
+.WordField
+{
+	font-size: 50%;
+	margin-top: 1px;
+	margin-left: 1em;
+	margin-bottom: 0px;
+}
+.WordVersion
+{
+	color: blue;
+	background-color: white;
+/*	border: 1px solid #AAAACC;*/
+	font-size: 50%;
+	margin-top: 0px;
+	margin-bottom: 1px;
+}
+/* hn */
+h2
+{
+	width: 100%;
+	font-size: 180%;
+	font-weight: bold;
+	color: #6666ff;
+
+	background-repeat: no-repeat;
+	background-color: #DDDDFF;
+
+	padding-top: 6px;
+	padding-left: 5px;
+	padding-bottom: 4px;
+	padding-right: 0px;
+
+	margin-top: 15px;
+	margin-left: 3px;
+/*	margin-bottom: 12px; */
+	margin-bottom: 0px;
+	margin-right: 3px;
+
+	border-left: #6666FF 10px solid;
+	border-bottom: #9999CC 2px solid;
+	border-right: #9999CC 2px solid;
+}
+h3
+{
+	background-color: transparent;
+
+	width: 95%;
+	font-size: 100%;
+	color: #ff3333;
+	font-weight: bold;
+
+	padding-top: 3px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	padding-right:3px;
+
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	margin-right: 15px;
+
+	border: #6666FF 1px solid;
+}
+h4
+{
+	background-color: #6666cc;
+
+	width: 95%;
+	font-size: 80%;
+	color: #FFFFFF;
+	font-weight: bold;
+
+	text-align: left;
+	vertical-align: middle;
+
+	padding-top: 3px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	padding-right:3px;
+
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+
+	border-bottom: #333399 2px solid;
+	border-right: #333399 2px solid;
+
+}
+.WordCategory
+{
+	color: white;
+}
+.WordCategory:link
+{
+	color: white;
+}
+.WordCategory:visited
+{
+	color: white;
+}
+.WordCategory:hover
+{
+	color: white;
+}
+/* Arguments */
+.Arguments
+{
+	width: 100%;
+	font-size: 80%;
+/*	color: #ff3333; */
+	color: #cc3333;
+
+	padding-top: 3px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	padding-right:3px;
+
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	margin-right: 15px;
+
+}
+.ArgType
+{
+	width: 15%;
+}
+.ArgMeaning
+{
+	padding-left: 1em;
+}
+.ContentBody
+{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.Description
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 100%;
+	width: 100%;
+}
+.NoticeHead
+{
+	float: left;
+	width: 1em;
+	color: red;
+}
+.NoticeBody
+{
+	margin-left: 1em;
+	margin-bottom: 1em;
+	font-size: 80%;
+	color: red;
+}
+.Example
+{
+	clear: both;
+}
+.ExSource
+{
+	margin-top: 2px;
+	background-color: #e0e0e0;
+}
+.ExHeading
+{
+	font-weight: bold;
+}
+#VALUE_EXPLANATION_TABLE td
+{
+	font-size: smaller;
+}
+#NUMBER_RANGE_TABLE td
+{
+	font-size: smaller;
+}
+#BGCOLOR_EXPLANATION_TABLE
+{
+	font-size: smaller;
+}
+#LIST .WordLiteral a
+{
+	width: 20%;
+	display: inline-block;
+}
