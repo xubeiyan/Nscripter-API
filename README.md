@@ -10,6 +10,6 @@ NScripter-API CHS version 0.78
 
 完成时间：由于年代久远已不可考
 
-##外部版本
+## 外部版本
 
 一个外部网站上的[此手册](http://chenhai.net/NScrAPI_CHS_v0.78.html "有问题请发送邮件")
